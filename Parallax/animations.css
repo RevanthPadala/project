@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    width: 100%;
+    text-rendering: optimizeLegibility;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-weight: 400;
+    background-color: #d4d2d2;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*------------------------------*/
+/* for all sections */
+/*------------------------------*/
+section{
+    margin-top: 5%;
+}
+.section-heading{
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px;
+}
+.section-heading::after{
+    display: block;
+    height: 2px;
+    background-color: #3d5c96;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.section-text p{
+    text-align: justify;
+    font-family: 'Nunito', sans-serif;
+    width: 70%;
+    letter-spacing: 1px;
+    line-height: 140%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.on-image-heading{
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #efefef;
+}
+.on-image-heading h2{
+    display: inline-block;
+    text-align: center;
+    margin-top: 12%;
+    margin-right: auto;
+}
+/*--------------------------------------*/
+/* Header Section */
+/*--------------------------------------*/
+header{
+    font-family: 'Playfair Display', serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Images/sonny-mauricio-TeiNMLukFVc-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+.header-heading{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+}
+.header-heading h1{
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    color: #efefef;
+    margin-bottom: 20px;
+}
+/*--------------------------------------*/
+/* Section-1 */
+/*--------------------------------------*/
+
+/*--------------------------------------*/
+/* Section-2 */
+/*--------------------------------------*/
+
+.section-2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Images/arnold-francisca-f77Bh3inUpE-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    background-attachment: fixed;
+    justify-items: center;
+    align-content: center;
+}
+
+/*--------------------------------------*/
+/* Section-2-1 */
+/*--------------------------------------*/
+
+h3{
+    font-family: 'Nunito', sans-serif;
+    width: 70%;
+    letter-spacing: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+/*--------------------------------------*/
+/* Section-3 */
+/*--------------------------------------*/
+.section-3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Images/js.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    background-attachment: fixed;
+    justify-items: center;
+    align-content: center;
+}
+.read-more{
+    margin-bottom: 5%;
+}
+.link:link, .link:visited{
+    text-decoration: none;
+    border: 2px;
+    background-color: #26a6cc;
+    color: rgba(222, 222, 222, 0.92);
+    text-transform: capitalize;
+    padding: 10px;
+    border-radius: 20px;
+}
+.link:hover, .link:active{
+    background-color: #000;
+    transition: background-color 0.5s;
+}
+
+/*--------------------------------------*/
+/* Section-3 */
+/*--------------------------------------*/
+footer{
+    font-family: 'Nunito', serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Images/jeo.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+    justify-items: center;
+    align-content: center;
+}
+.follow-me h1{
+    display: inline-block;
+    text-transform: uppercase;
+    color: #efefef;
+    margin-top: 12%
+}
+.follow-me h2{
+    display: inline-block;
+    margin-top: 12%;
+    margin-bottom: 3%;
+    text-transform: uppercase;
+    color: #efefef;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+}
+.small-div{
+    width: 200px;
+}
+.small-div a:link, .small-div a:visited{
+    text-decoration: none;
+    color: white;
+}
+.small-div a:hover, .small-div a:active{
+    color: #0077B5;
+    transition: color 0.5s;
+    
+}
+.linkedin{
+    margin-right: 35%;
+}
+.author{
+    display: inline-block;
+    float: right;
+    margin-top: 10%;
+    margin-right: 5%;
+}
+.author h1{
+    text-transform: capitalize;
+    letter-spacing: 4px;
+    color: #efefef;
+}
+
+
+
+
+
+
+
+
+
